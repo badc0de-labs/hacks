@@ -4,24 +4,24 @@ Reads the strandard a list of domain names from standard input end displays a li
 
 ## Examples
 
-$ multiResolver -h
-Usage of ./multiResolver:
+$ mresolver -h
+Usage of ./mresolver:
   -u    Show unresolved names
 
 
-$ multiResolver < domains.txt
+$ mresolver < domains.txt
 google.com [142.251.132.46 2800:3f0:4001:834::200e]
 www.google.com [172.217.30.4 2800:3f0:4001:83a::2004]
 
 
-$ multiResolver -u < domains.txt
+$ mresolver -u < domains.txt
 google.com [142.251.132.46 2800:3f0:4001:834::200e]
 www.google.com [172.217.30.4 2800:3f0:4001:83a::2004]
 
 Domains unable to resolve:  [invalid.google.com]
 
 
-$ subfinder -d nmap.org | ./multiResolver
+$ subfinder -d nmap.org | ./mresolver
 
                __    _____           __
    _______  __/ /_  / __(_)___  ____/ /__  _____
