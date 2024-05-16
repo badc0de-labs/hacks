@@ -4,6 +4,7 @@ Reads the strandard a list of domain names from standard input end displays a li
 
 ## Examples
 
+```bash
 $ mresolver -h
 Usage of ./mresolver:
   -u    Show unresolved names
@@ -78,3 +79,4 @@ scheme.nmap.org [45.33.49.119 2600:3c01:e000:3e6::6d4e:7061]
 scannme.nmap.org [45.33.49.119 2600:3c01:e000:3e6::6d4e:7061]
 httpscanned.nmap.org [45.33.49.119 2600:3c01:e000:3e6::6d4e:7061]
 www.servicioeasy.nmap.org [45.33.49.119 2600:3c01:e000:3e6::6d4e:7061]
+```
